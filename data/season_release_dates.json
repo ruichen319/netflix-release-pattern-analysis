@@ -1,0 +1,264 @@
+[
+  {
+    "show_title": "Bridgerton",
+    "season_number": 1,
+    "release_date": "2020-12-25",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.shondaland.com/shondaland-series/bridgerton/enjoy-the-bridgerton-trailer",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Bridgerton",
+    "season_number": 2,
+    "release_date": "2022-03-25",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/articles/bridgerton-season-2-release-date-announced",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Bridgerton",
+    "season_number": 3,
+    "release_date": "2024-05-16",
+    "release_mode": "split_batches",
+    "later_batch_dates": [
+      "2024-06-13"
+    ],
+    "source_url": "https://about.netflix.com/en/news/bridgerton-valentines-day-fan-event-thrills-with-news-about-the-season",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Bridgerton",
+    "season_number": 4,
+    "release_date": "2026-01-29",
+    "release_mode": "split_batches",
+    "later_batch_dates": [
+      "2026-02-26"
+    ],
+    "source_url": "https://www.netflix.com/tudum/articles/bridgerton-season-4-premiere-date",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "DAN DA DAN",
+    "season_number": 1,
+    "release_date": "2024-10-03",
+    "release_mode": "weekly",
+    "later_batch_dates": [],
+    "source_url": "https://mediatoon-licensing.com/en/japanimation-en/dan-da-dan-finally-available-in-anime/",
+    "notes": "First Netflix episode; one episode per week. Exact date may differ by territory/timezone.",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "DAN DA DAN",
+    "season_number": 2,
+    "release_date": "2025-07-03",
+    "release_mode": "weekly",
+    "later_batch_dates": [],
+    "source_url": "https://www.youtube.com/watch?v=Ua4NZ3yW2lk",
+    "notes": "Netflix Anime official trailer confirms July 3. Weekly release continues beyond the launch window; post-window control is not a non-release period.",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Manifest",
+    "season_number": 1,
+    "release_date": null,
+    "release_mode": "regional_catalog_addition",
+    "later_batch_dates": [],
+    "source_url": "https://www.whats-on-netflix.com/news/when-will-manifest-season-3-be-on-netflix-08-2021/",
+    "notes": "No single global Netflix launch date established. Keep release_date null for global-chart analysis. US catalog date is separate from original NBC premiere and must not be treated as a global new-season premiere.",
+    "regional_netflix_date": {
+      "territory": "US",
+      "date": "2021-06-10"
+    }
+  },
+  {
+    "show_title": "Manifest",
+    "season_number": 2,
+    "release_date": null,
+    "release_mode": "regional_catalog_addition",
+    "later_batch_dates": [],
+    "source_url": "https://www.whats-on-netflix.com/news/when-will-manifest-season-3-be-on-netflix-08-2021/",
+    "notes": "No single global Netflix launch date established. Keep release_date null for global-chart analysis. US catalog date is separate from original NBC premiere and must not be treated as a global new-season premiere.",
+    "regional_netflix_date": {
+      "territory": "US",
+      "date": "2021-06-10"
+    }
+  },
+  {
+    "show_title": "Manifest",
+    "season_number": 3,
+    "release_date": null,
+    "release_mode": "regional_catalog_addition",
+    "later_batch_dates": [],
+    "source_url": "https://www.whats-on-netflix.com/news/when-will-manifest-season-3-be-on-netflix-08-2021/",
+    "notes": "No single global Netflix launch date established. Keep release_date null for global-chart analysis. US catalog date is separate from original NBC premiere and must not be treated as a global new-season premiere.",
+    "regional_netflix_date": {
+      "territory": "US",
+      "date": "2021-08-21"
+    }
+  },
+  {
+    "show_title": "Manifest",
+    "season_number": 4,
+    "release_date": "2022-11-04",
+    "release_mode": "split_batches",
+    "later_batch_dates": [
+      "2023-06-02"
+    ],
+    "source_url": "https://media.netflix.com/en/only-on-netflix/80241318",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Ms. Rachel",
+    "season_number": 1,
+    "release_date": "2025-01-27",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.commonsensemedia.org/tv-reviews/ms-rachel",
+    "notes": "Netflix premiere; curated compilation of previously published content, not original YouTube premiere.",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Ms. Rachel",
+    "season_number": 2,
+    "release_date": "2025-09-01",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/articles/ms-rachel-netflix-date-details",
+    "notes": "Official article confirms new episodes September 1, 2025; Season 2 label corroborated by https://www.rottentomatoes.com/tv/ms_rachel/s02 .",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Squid Game",
+    "season_number": 1,
+    "release_date": "2021-09-17",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://about.netflix.com/en/news/squid-game-invites-you-to-deadly-childhood-games-on-september-17",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Squid Game",
+    "season_number": 2,
+    "release_date": "2024-12-26",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/articles/squid-game-season-2-confirmed",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Squid Game",
+    "season_number": 3,
+    "release_date": "2025-06-27",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/articles/squid-game-season-3-plot-release-date-news",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Stranger Things",
+    "season_number": 1,
+    "release_date": "2016-07-15",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/features/stranger-things-10th-anniversary-vhs-special-edition-on-netflix",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Stranger Things",
+    "season_number": 2,
+    "release_date": "2017-10-27",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://abcnews.go.com/Entertainment/stranger-things-season-debuts-netflix-today/story?id=50757726",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Stranger Things",
+    "season_number": 3,
+    "release_date": "2019-07-04",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://en.wikipedia.org/wiki/Stranger_Things_season_3",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Stranger Things",
+    "season_number": 4,
+    "release_date": "2022-05-27",
+    "release_mode": "split_batches",
+    "later_batch_dates": [
+      "2022-07-01"
+    ],
+    "source_url": "https://www.netflix.com/tudum/articles/stranger-things-season-4-release-date-announced",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Stranger Things",
+    "season_number": 5,
+    "release_date": "2025-11-26",
+    "release_mode": "split_batches",
+    "later_batch_dates": [
+      "2025-12-25",
+      "2025-12-31"
+    ],
+    "source_url": "https://www.youtube.com/watch?v=QlYrNC_1Xmk",
+    "notes": "Official US dates at 5 PM Pacific; later local calendar date in some territories. Sunday report-week alignment is unaffected.",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "The Gentlemen",
+    "season_number": 1,
+    "release_date": "2024-03-07",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/articles/the-gentlemen-show-release-date-photos",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "The Gentlemen",
+    "season_number": 2,
+    "release_date": "2026-09-03",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/articles/the-gentlemen-season-2-release-date-photos",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Wednesday",
+    "season_number": 1,
+    "release_date": "2022-11-23",
+    "release_mode": "all_at_once",
+    "later_batch_dates": [],
+    "source_url": "https://www.netflix.com/tudum/articles/wednesday-jenna-ortega-release-date-poster",
+    "notes": "",
+    "regional_netflix_date": null
+  },
+  {
+    "show_title": "Wednesday",
+    "season_number": 2,
+    "release_date": "2025-08-06",
+    "release_mode": "split_batches",
+    "later_batch_dates": [
+      "2025-09-03"
+    ],
+    "source_url": "https://www.netflix.com/tudum/articles/wednesday-season-2-teaser-photos",
+    "notes": "",
+    "regional_netflix_date": null
+  }
+]
