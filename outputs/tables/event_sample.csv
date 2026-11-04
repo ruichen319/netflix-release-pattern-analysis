@@ -1,0 +1,11 @@
+release_mode,show_title,new_season_number,older_seasons
+all_at_once,Bridgerton,2,1
+all_at_once,Ms. Rachel,2,1
+all_at_once,Squid Game,2,1
+all_at_once,Squid Game,3,2
+split_batches,Bridgerton,3,2
+split_batches,Bridgerton,4,3
+split_batches,Manifest,4,3
+split_batches,Stranger Things,4,3
+split_batches,Stranger Things,5,4
+split_batches,Wednesday,2,1
