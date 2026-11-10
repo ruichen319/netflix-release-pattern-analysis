@@ -1,0 +1,3 @@
+﻿release_mode,launches,expected_event_season_pairs,included_event_season_pairs,omitted_not_observed_in_snapshot,omitted_despite_snapshot_presence,retained_zero_window_pairs
+all_at_once,4,5,5,0,0,0
+split_batches,6,16,16,0,0,1

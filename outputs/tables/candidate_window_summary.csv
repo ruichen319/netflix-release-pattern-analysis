@@ -1,0 +1,3 @@
+﻿release_mode,launches,candidate_start_week,candidate_end_week,candidate_weeks_per_launch,noncandidate_weeks_per_launch,candidate_positive_event_weeks,candidate_total_event_weeks,candidate_rate,noncandidate_positive_event_weeks,noncandidate_total_event_weeks,noncandidate_rate,difference_percentage_points,events_with_candidate_chart_activity,events_with_noncandidate_chart_activity
+all_at_once,4,-1,5,7,17,19,28,0.6785714285714286,9,68,0.1323529411764706,54.6218487394958,4,1
+split_batches,6,-1,10,12,12,47,72,0.6527777777777778,8,72,0.1111111111111111,54.16666666666667,6,2

@@ -1,0 +1,241 @@
+release_mode,category,show_title,new_season_number,launch_week,relative_week,any_older_season_in_top10,in_candidate_window,week
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-12,0,False,2022-01-02
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-11,0,False,2022-01-09
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-10,0,False,2022-01-16
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-9,0,False,2022-01-23
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-8,0,False,2022-01-30
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-7,0,False,2022-02-06
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-6,0,False,2022-02-13
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-5,0,False,2022-02-20
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-4,0,False,2022-02-27
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-3,0,False,2022-03-06
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-2,0,False,2022-03-13
+all_at_once,TV (English),Bridgerton,2,2022-03-27,-1,0,True,2022-03-20
+all_at_once,TV (English),Bridgerton,2,2022-03-27,0,1,True,2022-03-27
+all_at_once,TV (English),Bridgerton,2,2022-03-27,1,1,True,2022-04-03
+all_at_once,TV (English),Bridgerton,2,2022-03-27,2,1,True,2022-04-10
+all_at_once,TV (English),Bridgerton,2,2022-03-27,3,1,True,2022-04-17
+all_at_once,TV (English),Bridgerton,2,2022-03-27,4,1,True,2022-04-24
+all_at_once,TV (English),Bridgerton,2,2022-03-27,5,1,True,2022-05-01
+all_at_once,TV (English),Bridgerton,2,2022-03-27,6,0,False,2022-05-08
+all_at_once,TV (English),Bridgerton,2,2022-03-27,7,0,False,2022-05-15
+all_at_once,TV (English),Bridgerton,2,2022-03-27,8,0,False,2022-05-22
+all_at_once,TV (English),Bridgerton,2,2022-03-27,9,0,False,2022-05-29
+all_at_once,TV (English),Bridgerton,2,2022-03-27,10,0,False,2022-06-05
+all_at_once,TV (English),Bridgerton,2,2022-03-27,11,0,False,2022-06-12
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-12,0,False,2025-06-15
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-11,0,False,2025-06-22
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-10,1,False,2025-06-29
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-9,1,False,2025-07-06
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-8,1,False,2025-07-13
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-7,1,False,2025-07-20
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-6,1,False,2025-07-27
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-5,1,False,2025-08-03
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-4,1,False,2025-08-10
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-3,1,False,2025-08-17
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-2,1,False,2025-08-24
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,-1,1,True,2025-08-31
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,0,0,True,2025-09-07
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,1,0,True,2025-09-14
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,2,0,True,2025-09-21
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,3,0,True,2025-09-28
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,4,1,True,2025-10-05
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,5,0,True,2025-10-12
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,6,0,False,2025-10-19
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,7,0,False,2025-10-26
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,8,0,False,2025-11-02
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,9,0,False,2025-11-09
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,10,0,False,2025-11-16
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,11,0,False,2025-11-23
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-12,0,False,2024-10-06
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-11,0,False,2024-10-13
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-10,0,False,2024-10-20
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-9,0,False,2024-10-27
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-8,0,False,2024-11-03
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-7,0,False,2024-11-10
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-6,0,False,2024-11-17
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-5,0,False,2024-11-24
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-4,0,False,2024-12-01
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-3,0,False,2024-12-08
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-2,0,False,2024-12-15
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,-1,1,True,2024-12-22
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,0,1,True,2024-12-29
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,1,1,True,2025-01-05
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,2,1,True,2025-01-12
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,3,1,True,2025-01-19
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,4,1,True,2025-01-26
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,5,1,True,2025-02-02
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,6,0,False,2025-02-09
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,7,0,False,2025-02-16
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,8,0,False,2025-02-23
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,9,0,False,2025-03-02
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,10,0,False,2025-03-09
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,11,0,False,2025-03-16
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-12,0,False,2025-04-06
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-11,0,False,2025-04-13
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-10,0,False,2025-04-20
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-9,0,False,2025-04-27
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-8,0,False,2025-05-04
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-7,0,False,2025-05-11
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-6,0,False,2025-05-18
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-5,0,False,2025-05-25
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-4,0,False,2025-06-01
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-3,0,False,2025-06-08
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-2,0,False,2025-06-15
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,-1,0,True,2025-06-22
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,0,1,True,2025-06-29
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,1,1,True,2025-07-06
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,2,1,True,2025-07-13
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,3,1,True,2025-07-20
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,4,0,True,2025-07-27
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,5,0,True,2025-08-03
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,6,0,False,2025-08-10
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,7,0,False,2025-08-17
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,8,0,False,2025-08-24
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,9,0,False,2025-08-31
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,10,0,False,2025-09-07
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,11,0,False,2025-09-14
+split_batches,TV (English),Bridgerton,3,2024-05-19,-12,0,False,2024-02-25
+split_batches,TV (English),Bridgerton,3,2024-05-19,-11,0,False,2024-03-03
+split_batches,TV (English),Bridgerton,3,2024-05-19,-10,0,False,2024-03-10
+split_batches,TV (English),Bridgerton,3,2024-05-19,-9,0,False,2024-03-17
+split_batches,TV (English),Bridgerton,3,2024-05-19,-8,0,False,2024-03-24
+split_batches,TV (English),Bridgerton,3,2024-05-19,-7,0,False,2024-03-31
+split_batches,TV (English),Bridgerton,3,2024-05-19,-6,0,False,2024-04-07
+split_batches,TV (English),Bridgerton,3,2024-05-19,-5,0,False,2024-04-14
+split_batches,TV (English),Bridgerton,3,2024-05-19,-4,0,False,2024-04-21
+split_batches,TV (English),Bridgerton,3,2024-05-19,-3,0,False,2024-04-28
+split_batches,TV (English),Bridgerton,3,2024-05-19,-2,0,False,2024-05-05
+split_batches,TV (English),Bridgerton,3,2024-05-19,-1,1,True,2024-05-12
+split_batches,TV (English),Bridgerton,3,2024-05-19,0,1,True,2024-05-19
+split_batches,TV (English),Bridgerton,3,2024-05-19,1,1,True,2024-05-26
+split_batches,TV (English),Bridgerton,3,2024-05-19,2,1,True,2024-06-02
+split_batches,TV (English),Bridgerton,3,2024-05-19,3,1,True,2024-06-09
+split_batches,TV (English),Bridgerton,3,2024-05-19,4,1,True,2024-06-16
+split_batches,TV (English),Bridgerton,3,2024-05-19,5,1,True,2024-06-23
+split_batches,TV (English),Bridgerton,3,2024-05-19,6,1,True,2024-06-30
+split_batches,TV (English),Bridgerton,3,2024-05-19,7,0,True,2024-07-07
+split_batches,TV (English),Bridgerton,3,2024-05-19,8,0,True,2024-07-14
+split_batches,TV (English),Bridgerton,3,2024-05-19,9,0,True,2024-07-21
+split_batches,TV (English),Bridgerton,3,2024-05-19,10,0,True,2024-07-28
+split_batches,TV (English),Bridgerton,3,2024-05-19,11,0,False,2024-08-04
+split_batches,TV (English),Bridgerton,4,2026-02-01,-12,0,False,2025-11-09
+split_batches,TV (English),Bridgerton,4,2026-02-01,-11,0,False,2025-11-16
+split_batches,TV (English),Bridgerton,4,2026-02-01,-10,0,False,2025-11-23
+split_batches,TV (English),Bridgerton,4,2026-02-01,-9,0,False,2025-11-30
+split_batches,TV (English),Bridgerton,4,2026-02-01,-8,0,False,2025-12-07
+split_batches,TV (English),Bridgerton,4,2026-02-01,-7,0,False,2025-12-14
+split_batches,TV (English),Bridgerton,4,2026-02-01,-6,0,False,2025-12-21
+split_batches,TV (English),Bridgerton,4,2026-02-01,-5,0,False,2025-12-28
+split_batches,TV (English),Bridgerton,4,2026-02-01,-4,0,False,2026-01-04
+split_batches,TV (English),Bridgerton,4,2026-02-01,-3,0,False,2026-01-11
+split_batches,TV (English),Bridgerton,4,2026-02-01,-2,0,False,2026-01-18
+split_batches,TV (English),Bridgerton,4,2026-02-01,-1,0,True,2026-01-25
+split_batches,TV (English),Bridgerton,4,2026-02-01,0,1,True,2026-02-01
+split_batches,TV (English),Bridgerton,4,2026-02-01,1,1,True,2026-02-08
+split_batches,TV (English),Bridgerton,4,2026-02-01,2,1,True,2026-02-15
+split_batches,TV (English),Bridgerton,4,2026-02-01,3,0,True,2026-02-22
+split_batches,TV (English),Bridgerton,4,2026-02-01,4,0,True,2026-03-01
+split_batches,TV (English),Bridgerton,4,2026-02-01,5,1,True,2026-03-08
+split_batches,TV (English),Bridgerton,4,2026-02-01,6,0,True,2026-03-15
+split_batches,TV (English),Bridgerton,4,2026-02-01,7,0,True,2026-03-22
+split_batches,TV (English),Bridgerton,4,2026-02-01,8,0,True,2026-03-29
+split_batches,TV (English),Bridgerton,4,2026-02-01,9,0,True,2026-04-05
+split_batches,TV (English),Bridgerton,4,2026-02-01,10,0,True,2026-04-12
+split_batches,TV (English),Bridgerton,4,2026-02-01,11,0,False,2026-04-19
+split_batches,TV (English),Manifest,4,2022-11-06,-12,1,False,2022-08-14
+split_batches,TV (English),Manifest,4,2022-11-06,-11,1,False,2022-08-21
+split_batches,TV (English),Manifest,4,2022-11-06,-10,1,False,2022-08-28
+split_batches,TV (English),Manifest,4,2022-11-06,-9,1,False,2022-09-04
+split_batches,TV (English),Manifest,4,2022-11-06,-8,1,False,2022-09-11
+split_batches,TV (English),Manifest,4,2022-11-06,-7,0,False,2022-09-18
+split_batches,TV (English),Manifest,4,2022-11-06,-6,0,False,2022-09-25
+split_batches,TV (English),Manifest,4,2022-11-06,-5,0,False,2022-10-02
+split_batches,TV (English),Manifest,4,2022-11-06,-4,0,False,2022-10-09
+split_batches,TV (English),Manifest,4,2022-11-06,-3,0,False,2022-10-16
+split_batches,TV (English),Manifest,4,2022-11-06,-2,0,False,2022-10-23
+split_batches,TV (English),Manifest,4,2022-11-06,-1,0,True,2022-10-30
+split_batches,TV (English),Manifest,4,2022-11-06,0,1,True,2022-11-06
+split_batches,TV (English),Manifest,4,2022-11-06,1,1,True,2022-11-13
+split_batches,TV (English),Manifest,4,2022-11-06,2,1,True,2022-11-20
+split_batches,TV (English),Manifest,4,2022-11-06,3,1,True,2022-11-27
+split_batches,TV (English),Manifest,4,2022-11-06,4,1,True,2022-12-04
+split_batches,TV (English),Manifest,4,2022-11-06,5,0,True,2022-12-11
+split_batches,TV (English),Manifest,4,2022-11-06,6,0,True,2022-12-18
+split_batches,TV (English),Manifest,4,2022-11-06,7,0,True,2022-12-25
+split_batches,TV (English),Manifest,4,2022-11-06,8,0,True,2023-01-01
+split_batches,TV (English),Manifest,4,2022-11-06,9,0,True,2023-01-08
+split_batches,TV (English),Manifest,4,2022-11-06,10,0,True,2023-01-15
+split_batches,TV (English),Manifest,4,2022-11-06,11,0,False,2023-01-22
+split_batches,TV (English),Stranger Things,4,2022-05-29,-12,0,False,2022-03-06
+split_batches,TV (English),Stranger Things,4,2022-05-29,-11,0,False,2022-03-13
+split_batches,TV (English),Stranger Things,4,2022-05-29,-10,0,False,2022-03-20
+split_batches,TV (English),Stranger Things,4,2022-05-29,-9,0,False,2022-03-27
+split_batches,TV (English),Stranger Things,4,2022-05-29,-8,0,False,2022-04-03
+split_batches,TV (English),Stranger Things,4,2022-05-29,-7,0,False,2022-04-10
+split_batches,TV (English),Stranger Things,4,2022-05-29,-6,0,False,2022-04-17
+split_batches,TV (English),Stranger Things,4,2022-05-29,-5,0,False,2022-04-24
+split_batches,TV (English),Stranger Things,4,2022-05-29,-4,0,False,2022-05-01
+split_batches,TV (English),Stranger Things,4,2022-05-29,-3,0,False,2022-05-08
+split_batches,TV (English),Stranger Things,4,2022-05-29,-2,0,False,2022-05-15
+split_batches,TV (English),Stranger Things,4,2022-05-29,-1,1,True,2022-05-22
+split_batches,TV (English),Stranger Things,4,2022-05-29,0,1,True,2022-05-29
+split_batches,TV (English),Stranger Things,4,2022-05-29,1,1,True,2022-06-05
+split_batches,TV (English),Stranger Things,4,2022-05-29,2,1,True,2022-06-12
+split_batches,TV (English),Stranger Things,4,2022-05-29,3,1,True,2022-06-19
+split_batches,TV (English),Stranger Things,4,2022-05-29,4,1,True,2022-06-26
+split_batches,TV (English),Stranger Things,4,2022-05-29,5,1,True,2022-07-03
+split_batches,TV (English),Stranger Things,4,2022-05-29,6,1,True,2022-07-10
+split_batches,TV (English),Stranger Things,4,2022-05-29,7,1,True,2022-07-17
+split_batches,TV (English),Stranger Things,4,2022-05-29,8,1,True,2022-07-24
+split_batches,TV (English),Stranger Things,4,2022-05-29,9,1,True,2022-07-31
+split_batches,TV (English),Stranger Things,4,2022-05-29,10,1,True,2022-08-07
+split_batches,TV (English),Stranger Things,4,2022-05-29,11,0,False,2022-08-14
+split_batches,TV (English),Stranger Things,5,2025-11-30,-12,0,False,2025-09-07
+split_batches,TV (English),Stranger Things,5,2025-11-30,-11,0,False,2025-09-14
+split_batches,TV (English),Stranger Things,5,2025-11-30,-10,0,False,2025-09-21
+split_batches,TV (English),Stranger Things,5,2025-11-30,-9,0,False,2025-09-28
+split_batches,TV (English),Stranger Things,5,2025-11-30,-8,0,False,2025-10-05
+split_batches,TV (English),Stranger Things,5,2025-11-30,-7,0,False,2025-10-12
+split_batches,TV (English),Stranger Things,5,2025-11-30,-6,0,False,2025-10-19
+split_batches,TV (English),Stranger Things,5,2025-11-30,-5,0,False,2025-10-26
+split_batches,TV (English),Stranger Things,5,2025-11-30,-4,1,False,2025-11-02
+split_batches,TV (English),Stranger Things,5,2025-11-30,-3,1,False,2025-11-09
+split_batches,TV (English),Stranger Things,5,2025-11-30,-2,1,False,2025-11-16
+split_batches,TV (English),Stranger Things,5,2025-11-30,-1,1,True,2025-11-23
+split_batches,TV (English),Stranger Things,5,2025-11-30,0,1,True,2025-11-30
+split_batches,TV (English),Stranger Things,5,2025-11-30,1,1,True,2025-12-07
+split_batches,TV (English),Stranger Things,5,2025-11-30,2,1,True,2025-12-14
+split_batches,TV (English),Stranger Things,5,2025-11-30,3,1,True,2025-12-21
+split_batches,TV (English),Stranger Things,5,2025-11-30,4,1,True,2025-12-28
+split_batches,TV (English),Stranger Things,5,2025-11-30,5,1,True,2026-01-04
+split_batches,TV (English),Stranger Things,5,2025-11-30,6,1,True,2026-01-11
+split_batches,TV (English),Stranger Things,5,2025-11-30,7,1,True,2026-01-18
+split_batches,TV (English),Stranger Things,5,2025-11-30,8,1,True,2026-01-25
+split_batches,TV (English),Stranger Things,5,2025-11-30,9,0,True,2026-02-01
+split_batches,TV (English),Stranger Things,5,2025-11-30,10,0,True,2026-02-08
+split_batches,TV (English),Stranger Things,5,2025-11-30,11,0,False,2026-02-15
+split_batches,TV (English),Wednesday,2,2025-08-10,-12,0,False,2025-05-18
+split_batches,TV (English),Wednesday,2,2025-08-10,-11,0,False,2025-05-25
+split_batches,TV (English),Wednesday,2,2025-08-10,-10,0,False,2025-06-01
+split_batches,TV (English),Wednesday,2,2025-08-10,-9,0,False,2025-06-08
+split_batches,TV (English),Wednesday,2,2025-08-10,-8,0,False,2025-06-15
+split_batches,TV (English),Wednesday,2,2025-08-10,-7,0,False,2025-06-22
+split_batches,TV (English),Wednesday,2,2025-08-10,-6,0,False,2025-06-29
+split_batches,TV (English),Wednesday,2,2025-08-10,-5,0,False,2025-07-06
+split_batches,TV (English),Wednesday,2,2025-08-10,-4,0,False,2025-07-13
+split_batches,TV (English),Wednesday,2,2025-08-10,-3,0,False,2025-07-20
+split_batches,TV (English),Wednesday,2,2025-08-10,-2,0,False,2025-07-27
+split_batches,TV (English),Wednesday,2,2025-08-10,-1,1,True,2025-08-03
+split_batches,TV (English),Wednesday,2,2025-08-10,0,1,True,2025-08-10
+split_batches,TV (English),Wednesday,2,2025-08-10,1,1,True,2025-08-17
+split_batches,TV (English),Wednesday,2,2025-08-10,2,1,True,2025-08-24
+split_batches,TV (English),Wednesday,2,2025-08-10,3,1,True,2025-08-31
+split_batches,TV (English),Wednesday,2,2025-08-10,4,1,True,2025-09-07
+split_batches,TV (English),Wednesday,2,2025-08-10,5,1,True,2025-09-14
+split_batches,TV (English),Wednesday,2,2025-08-10,6,1,True,2025-09-21
+split_batches,TV (English),Wednesday,2,2025-08-10,7,0,True,2025-09-28
+split_batches,TV (English),Wednesday,2,2025-08-10,8,0,True,2025-10-05
+split_batches,TV (English),Wednesday,2,2025-08-10,9,0,True,2025-10-12
+split_batches,TV (English),Wednesday,2,2025-08-10,10,0,True,2025-10-19
+split_batches,TV (English),Wednesday,2,2025-08-10,11,0,False,2025-10-26

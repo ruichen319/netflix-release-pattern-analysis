@@ -1,0 +1,13 @@
+release_mode,category,show_title,new_season_number,launch_week,old_season_group,mean_top10_weeks,mean_top10_share,season_count,candidate_start_week,candidate_end_week
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,earlier_seasons,3.0,0.42857142857142855,1,-1,5
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,previous_season,4.0,0.5714285714285714,1,-1,5
+split_batches,TV (English),Bridgerton,3,2024-05-19,earlier_seasons,8.0,0.6666666666666666,1,-1,10
+split_batches,TV (English),Bridgerton,3,2024-05-19,previous_season,8.0,0.6666666666666666,1,-1,10
+split_batches,TV (English),Bridgerton,4,2026-02-01,earlier_seasons,2.0,0.16666666666666666,2,-1,10
+split_batches,TV (English),Bridgerton,4,2026-02-01,previous_season,3.0,0.25,1,-1,10
+split_batches,TV (English),Manifest,4,2022-11-06,earlier_seasons,3.0,0.25,2,-1,10
+split_batches,TV (English),Manifest,4,2022-11-06,previous_season,1.0,0.08333333333333333,1,-1,10
+split_batches,TV (English),Stranger Things,4,2022-05-29,earlier_seasons,10.0,0.8333333333333334,2,-1,10
+split_batches,TV (English),Stranger Things,4,2022-05-29,previous_season,11.0,0.9166666666666666,1,-1,10
+split_batches,TV (English),Stranger Things,5,2025-11-30,earlier_seasons,9.0,0.75,3,-1,10
+split_batches,TV (English),Stranger Things,5,2025-11-30,previous_season,10.0,0.8333333333333334,1,-1,10

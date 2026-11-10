@@ -1,0 +1,5 @@
+release_mode,old_season_group,mean_top10_weeks,mean_top10_share,launches,candidate_weeks,candidate_start_week,candidate_end_week
+all_at_once,earlier_seasons,3.0,0.42857142857142855,1,7,-1,5
+all_at_once,previous_season,4.0,0.5714285714285714,1,7,-1,5
+split_batches,earlier_seasons,6.4,0.5333333333333333,5,12,-1,10
+split_batches,previous_season,6.6,0.55,5,12,-1,10

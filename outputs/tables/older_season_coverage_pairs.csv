@@ -1,0 +1,22 @@
+﻿release_mode,category,show_title,new_season_number,launch_week,old_season_number,snapshot_chart_weeks,panel_rows,observed_panel_weeks,window_top10_weeks,reference_panel_match,included_in_panel,not_observed_in_snapshot,omitted_not_observed_in_snapshot,omitted_despite_snapshot_presence,retained_zero_window,status
+all_at_once,TV (English),Bridgerton,2,2022-03-27,1,20,24,24,6,both,True,False,False,False,False,retained_with_window_chart_presence
+all_at_once,TV (English),Ms. Rachel,2,2025-09-07,1,26,24,24,11,both,True,False,False,False,False,retained_with_window_chart_presence
+all_at_once,TV (Non-English),Squid Game,2,2024-12-29,1,32,24,24,7,both,True,False,False,False,False,retained_with_window_chart_presence
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,1,32,24,24,3,both,True,False,False,False,False,retained_with_window_chart_presence
+all_at_once,TV (Non-English),Squid Game,3,2025-06-29,2,14,24,24,4,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Bridgerton,3,2024-05-19,1,20,24,24,8,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Bridgerton,3,2024-05-19,2,22,24,24,8,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Bridgerton,4,2026-02-01,1,20,24,24,4,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Bridgerton,4,2026-02-01,2,22,24,24,0,both,True,False,False,False,True,retained_zero_window
+split_batches,TV (English),Bridgerton,4,2026-02-01,3,14,24,24,3,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Manifest,4,2022-11-06,1,25,24,24,10,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Manifest,4,2022-11-06,2,9,24,24,3,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Manifest,4,2022-11-06,3,8,24,24,3,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Stranger Things,4,2022-05-29,1,22,24,24,10,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Stranger Things,4,2022-05-29,2,20,24,24,10,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Stranger Things,4,2022-05-29,3,20,24,24,11,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Stranger Things,5,2025-11-30,1,22,24,24,12,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Stranger Things,5,2025-11-30,2,20,24,24,10,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Stranger Things,5,2025-11-30,3,20,24,24,9,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Stranger Things,5,2025-11-30,4,29,24,24,10,both,True,False,False,False,False,retained_with_window_chart_presence
+split_batches,TV (English),Wednesday,2,2025-08-10,1,28,24,24,8,both,True,False,False,False,False,retained_with_window_chart_presence
