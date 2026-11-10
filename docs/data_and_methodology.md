@@ -1,87 +1,67 @@
 # Data and methodology
 
-## Inputs
+## Frozen inputs
 
-- `data/all-weeks-global.tsv`: Netflix Global Weekly Top 10 viewership data, a worldwide chart rather than a collection of country-level charts. The frozen snapshot contains 10,960 records across 274 reporting weeks, from 2021-07-04 to 2026-09-27. Each week has 40 rows: ten films or TV seasons in each of four categories.
-- `data/season_release_dates.json`: 24 season-reference rows for 8 selected series. `source_url` stores the source used for each release. These references were retained from the original project and were not reverified during portfolio packaging.
-- Source entry point: [Netflix Global Top 10](https://www.netflix.com/tudum/top10).
+- `data/all-weeks-global.tsv`: worldwide weekly Top 10 rankings, with 10,960 rows and 274 weeks (2021-07-04 to 2026-09-27). Each week contains ten rows for each of four film/TV and English/non-English categories. The launch analysis uses the 5,480 TV rows; the film rows remain in the original input for traceability.
+- `data/season_release_dates.json`: 24 season-reference rows for 8 selected series, including first and later-batch dates and source URLs. References are retained from the original project and are not newly reverified. The list is not an independent complete Netflix catalog.
+- Original source entry point: [Netflix Global Top 10](https://www.netflix.com/tudum/top10).
 
-`release_date` is the first-batch date; `later_batch_dates` records additional batches of the same season. Releases with unknown dates and weekly release schedules are excluded from the main comparison. A release with no complete 24-week chart coverage is also excluded.
+## Source fields
 
-## Source dataset coverage
-
-| Global chart category | Weekly entries | Snapshot records |
-|---|---:|---:|
-| Films (English) | 10 | 2,740 |
-| Films (Non-English) | 10 | 2,740 |
-| TV (English) | 10 | 2,740 |
-| TV (Non-English) | 10 | 2,740 |
-| Total | 40 | 10,960 |
-
-A source row is one film or one TV season, in one chart category, during one reporting week. The same title or season can appear in multiple weeks. Different seasons of the same series are separate chart entries. Language categories are not production-country labels. The film rows remain in the input for traceability; the launch analysis filters to the 5,480 TV rows.
-
-## Source field dictionary
-
-| Field | Meaning and unit |
+| Field | Meaning |
 |---|---|
-| `week` | Sunday ending the Monday–Sunday reporting week; a week label, not a release date |
-| `category` | One of the four global format/language chart categories above |
-| `weekly_rank` | Published position 1–10 within that category and reporting week |
-| `show_title` | Film or series title |
-| `season_title` | TV season or part label when supplied; missing values are not automatically Season 1 |
-| `weekly_hours_viewed` | Total reported viewing hours for the listed film or season during that week |
-| `runtime` | Reported film/season runtime in hours; used to normalize viewing hours |
-| `weekly_views` | Reported views, defined as viewing hours divided by runtime; not unique people, accounts, or confirmed full completions |
-| `cumulative_weeks_in_top_10` | Accumulated chart weeks, including returns to the chart; not necessarily a consecutive run |
+| `week` | Sunday ending a Monday–Sunday report week |
+| `category` | Global format/language chart, not production country |
+| `weekly_rank` | Position 1–10 in the category/week |
+| `show_title` | Series or film name |
+| `season_title` | Season/part label, sometimes missing |
+| `weekly_hours_viewed` | Reported hours for a listed title/season |
+| `runtime` | Runtime used to normalize hours |
+| `weekly_views` | Hours divided by runtime, not distinct viewers |
+| `cumulative_weeks_in_top_10` | Accumulated chart weeks, including returns |
 
-### Metric availability and ranking change
+The main outcome is published chart presence. The historical file spans Netflix's hours-to-views ranking change; views and runtime are not available throughout the full period. No user exposure, cost or individual viewing history is included.
 
-`weekly_hours_viewed` is populated in all 10,960 records. `weekly_views` and `runtime` are populated in 6,880 records, beginning with the week ending 2023-06-18; both are missing in the preceding 4,080 records. These earlier missing values are retained, not interpreted as zero viewing.
+## Cleaning and selection
 
-Netflix's [20 June 2023 methodology update](https://about.netflix.com/en/news/top-10-things-about-netflix-top-10) announced a change from ranking by hours viewed to ranking by views. Its definition of views is total hours viewed divided by total runtime. Consequently, the full historical chart-presence series spans two ranking regimes. This project uses published chart membership and does not treat views as available throughout the entire period.
+1. Parse report and release dates; filter to the two TV categories.
+2. Map first release/batch dates to Sunday-ending report weeks. That week is Week 0.
+3. Keep launches with complete category charts in every week from −12 through +11: ten entries with ranks 1–10. Unknown-date and weekly-release cases are outside the comparison.
+4. Parse season numbers and reuse the original specific Stranger Things label corrections. Other unrecognized labels are not assigned automatically to Season 1.
+5. Match lower-numbered seasons in the chart-derived catalog, expand every launch/older-season combination to 24 weeks, and left-join chart membership with validated keys.
+6. Fill absent listings with `in_top10 = 0` after verifying chart completeness. This means below the observed chart threshold, not no viewing.
+7. Audit against the available lower-season reference. Report any exclusions separately from retained observations that never list in the 24-week window.
 
-### Snapshot checks
-
-- All 1,096 category–week groups contain exactly ten rows and ranks 1–10.
-- There are no duplicate combinations of week, category, show title, and season title.
-- TV rows include 175 missing season labels; only the specific Stranger Things name correction documented below is applied.
-- The file contains 170 zero runtimes. Non-null runtime does not therefore guarantee a valid divisor. This project does not recompute views or use runtime as its main outcome.
-
-## Derived observation and metric definitions
-
-| Field | Definition |
-|---|---|
-| `category` | English or non-English TV chart; not production country |
-| `launch_week` | Sunday ending the report week containing the first release batch |
-| `relative_week` | Integer from −12 through +11; 0 contains the first release batch |
-| `in_top10` | 1 if the older season is listed in that category and report week; 0 if absent from a complete chart |
-| `total_old_seasons_in_top10` | Number of listed event–older-season pairs in a relative week, not unique viewers or titles |
-| `previous_season` | Season numbered immediately before the new season |
-| `earlier_seasons` | Lower-numbered seasons excluding the immediately previous season |
-| `mean_top10_weeks` | Chart weeks averaged across seasons within an event, then averaged equally across eligible events |
-
-The source notebook standardizes missing or nonstandard Stranger Things season names in the split-batch comparison. Other unrecognized season labels remain unmatched instead of being automatically assigned to Season 1. The older-season catalog is limited to seasons observed somewhere in the chart dataset, so it is not a complete catalog of all seasons available on the platform.
-
-## Content-group comparisons
-
-Before constructing launch panels, the analysis sums listed viewing hours across TV and film, then English and non-English TV. Monthly summaries retain the full observed period. Annual comparisons use only the complete years 2022–2025; partial 2021 and 2026 totals are not treated as comparable full years.
-
-`outputs/tables/monthly_viewing_hours.csv` and `annual_viewing_hours.csv` report hours in millions. TV share divides the two TV categories by all four categories; non-English TV share divides non-English TV by the two TV categories. These are shares of chart-listed hours, not shares of all viewing on Netflix. Monthly assignment follows the Sunday reporting-week label.
-
-These comparisons restore the earlier steps in the original project notebook. They provide context for further investigation, not evidence that promoting one content group will generate higher incremental viewing.
-
-## Selected launch sample
+## Selected launches
 
 All-at-once: Bridgerton S2, Ms. Rachel S2, Squid Game S2 and S3.
 
-Split batches: Bridgerton S3 and S4, Manifest S4, Stranger Things S4 and S5, Wednesday S2.
+Split release: Bridgerton S3 and S4, Manifest S4, Stranger Things S4 and S5, Wednesday S2.
 
-Bridgerton appears in both groups. Ms. Rachel is an educational compilation rather than a conventional scripted series. Chart coverage confirms complete category lists, but it does not independently establish global availability in every market. Manifest earlier-season availability varies by region.
+There are 10 launches across 6 distinct series. Bridgerton appears in both formats. Complete charts do not prove availability in every market; availability of some earlier seasons can differ by region.
 
-## Reading the results
+## Three deliberately different units
 
-Raw weekly counts describe each group's own selected sample. There are unequal numbers of events and eligible older seasons. They cannot establish that one release format creates more viewing. Similarly, later chart activity in the split-batch group may coincide with later batches and other events.
+| Analysis | Observation/aggregation | Meaning |
+|---|---|---|
+| Weekly activity | Sum listed older seasons across launches | A repeated old season is counted separately at each release; 5 vs. 16 eligible observations |
+| Candidate timing | One launch × one week; maximum chart indicator across its older seasons | Any older-season listing counts once, even if several seasons list |
+| Season targeting | Share of candidate weeks listed per season; average within group/launch, then across launches | Controls for different numbers of earlier seasons and gives each eligible launch equal weight |
 
-The previous-versus-earlier comparison uses only events containing both groups. It retains one all-at-once event and five split-batch events; its scope is narrower than the 10-launch weekly pattern analysis.
+The complete tracking dataset has 504 rows: 21 older-season observations × 24 weeks. These cover 14 distinct older seasons. Collapsing to any-season presence yields 240 launch/week rows. Neither is the number of independent launches; repeated series also create dependence.
 
-No user-level viewing, campaign exposure, cost, conversion, or experimental data are included. Recommendations are proposed tests. No experiment was run in this project.
+## Candidate periods
+
+The shared `src/analysis_config.py` defines all-at-once −1 to +5 (7 weeks) and split release −1 to +10 (12 weeks). Outside weeks are the other 17 and 12 weeks respectively within the same 24-week observation. These cutoffs follow observed chart activity; no optimization, significance test or independent validation is claimed.
+
+## Previous versus earlier seasons
+
+Previous = immediately preceding numbered season. Earlier = lower-numbered seasons excluding the previous season. Include only launches containing both groups: 1 all-at-once and 5 split releases. For each season divide listed weeks by candidate weeks; average earlier seasons within a launch, then average launches equally. The reported gap is previous minus earlier, in percentage points.
+
+## Series timing
+
+Use the same all-at-once 24-week timelines for the Ms. Rachel comparison. Dates are report-week ends; first-to-last spans can include unlisted gaps. The full-snapshot check separately reports listed weeks, elapsed weeks and the longest interior unlisted gap. It does not infer unseen viewing.
+
+## Reproducibility
+
+`python src/analyze.py` and the notebook regenerate the same tables and figures from unchanged frozen inputs. Missing observation rows and duplicate launch/season/week keys are rejected rather than silently counted as zero. Tests verify window boundaries, any-season aggregation, all-zero retention and equal-launch weighting. `src/validate_results.py` reconciles the final slide values.
