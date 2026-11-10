@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="746.368125pt" height="342.917531pt" viewBox="0 0 746.368125 342.917531" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-09T19:21:19.407363</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 342.917531 
+L 746.368125 342.917531 
+L 746.368125 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 115.908125 279.041812 
+L 739.168125 279.041812 
+L 739.168125 35.837812 
+L 115.908125 35.837812 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 483.471715 46.89254 
+L 483.471715 46.89254 
+L 483.471715 71.4586 
+L 483.471715 71.4586 
+z
+" clip-path="url(#pa077686c16)" style="fill: #697587"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 483.471715 96.024661 
+L 616.646928 96.024661 
+L 616.646928 120.590722 
+L 483.471715 120.590722 
+z
+" clip-path="url(#pa077686c16)" style="fill: #697587"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 483.471715 145.156782 
+L 217.121287 145.156782 
+L 217.121287 169.722843 
+L 483.471715 169.722843 
+z
+" clip-path="url(#pa077686c16)" style="fill: #697587"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 483.471715 194.288903 
+L 616.646928 194.288903 
+L 616.646928 218.854964 
+L 483.471715 218.854964 
+z
+" clip-path="url(#pa077686c16)" style="fill: #697587"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 483.471715 243.421025 
+L 616.646928 243.421025 
+L 616.646928 267.987085 
+L 483.471715 267.987085 
+z
+" clip-path="url(#pa077686c16)" style="fill: #697587"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="163.851202" y="290.900094" transform="rotate(-0 163.851202 290.900094)">−20</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="243.75633" y="290.900094" transform="rotate(-0 243.75633 290.900094)">−15</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="323.661458" y="290.900094" transform="rotate(-0 323.661458 290.900094)">−10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="403.566587" y="290.900094" transform="rotate(-0 403.566587 290.900094)">−5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="483.471715" y="290.900094" transform="rotate(-0 483.471715 290.900094)">0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="563.376843" y="290.900094" transform="rotate(-0 563.376843 290.900094)">5</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="643.281971" y="290.900094" transform="rotate(-0 643.281971 290.900094)">10</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="723.187099" y="290.900094" transform="rotate(-0 723.187099 290.900094)">15</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #171b22" x="427.538125" y="305.546031" transform="rotate(-0 427.538125 305.546031)">Previous-season share − earlier-season mean share (percentage points)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #626975" x="112.408125" y="63.354711" transform="rotate(-0 112.408125 63.354711)">Bridgerton S3</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10"/>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #626975" x="112.408125" y="112.486832" transform="rotate(-0 112.408125 112.486832)">Bridgerton S4</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #626975" x="112.408125" y="161.618953" transform="rotate(-0 112.408125 161.618953)">Manifest S4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #626975" x="112.408125" y="210.751074" transform="rotate(-0 112.408125 210.751074)">Stranger Things S4</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13"/>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #626975" x="112.408125" y="259.883196" transform="rotate(-0 112.408125 259.883196)">Stranger Things S5</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path d="M 483.471715 279.041812 
+L 483.471715 35.837812 
+" clip-path="url(#pa077686c16)" style="fill: none; stroke: #9ca5b1; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="499.45274" y="62.210883" transform="rotate(-0 499.45274 62.210883)">+0.0 pp</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="632.627954" y="111.343004" transform="rotate(-0 632.627954 111.343004)">+8.3 pp</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #171b22" x="201.140262" y="160.475125" transform="rotate(-0 201.140262 160.475125)">-16.7 pp</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="632.627954" y="209.607246" transform="rotate(-0 632.627954 209.607246)">+8.3 pp</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="632.627954" y="258.739367" transform="rotate(-0 632.627954 258.739367)">+8.3 pp</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="115.908125" y="17.837812" transform="rotate(-0 115.908125 17.837812)">Split-release gaps vary by launch, averaging +1.7 pp</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #626975" x="25.288125" y="333.845812" transform="rotate(-0 25.288125 333.845812)">3 positive gaps, 1 tie and 1 negative; 5 launches across 3 series. The mean does not establish equivalence.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa077686c16">
+   <rect x="115.908125" y="35.837812" width="623.26" height="243.204"/>
+  </clipPath>
+ </defs>
+</svg>

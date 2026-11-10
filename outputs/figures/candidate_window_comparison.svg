@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="746.245469pt" height="337.553531pt" viewBox="0 0 746.245469 337.553531" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-09T19:21:19.169137</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 337.553531 
+L 746.245469 337.553531 
+L 746.245469 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 150.525469 273.965813 
+L 739.045469 273.965813 
+L 739.045469 49.837813 
+L 150.525469 49.837813 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 150.525469 87.936781 
+L 530.861523 87.936781 
+L 530.861523 60.025449 
+L 150.525469 60.025449 
+z
+" clip-path="url(#pe8273f3129)" style="fill: #c90000"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 150.525469 124.221514 
+L 224.708662 124.221514 
+L 224.708662 96.310181 
+L 150.525469 96.310181 
+z
+" clip-path="url(#pe8273f3129)" style="fill: #9ca5b1"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 150.525469 227.493444 
+L 516.404305 227.493444 
+L 516.404305 199.582111 
+L 150.525469 199.582111 
+z
+" clip-path="url(#pe8273f3129)" style="fill: #c90000"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 150.525469 263.778176 
+L 212.802717 263.778176 
+L 212.802717 235.866844 
+L 150.525469 235.866844 
+z
+" clip-path="url(#pe8273f3129)" style="fill: #9ca5b1"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="150.525469" y="285.824094" transform="rotate(-0 150.525469 285.824094)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="430.773088" y="285.824094" transform="rotate(-0 430.773088 285.824094)">50%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #626975" x="711.020707" y="285.824094" transform="rotate(-0 711.020707 285.824094)">100%</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #171b22" x="444.785469" y="300.470031" transform="rotate(-0 444.785469 300.470031)">Share of launch–weeks with any older season in the Top 10</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #626975" x="147.025469" y="96.302622" transform="rotate(-0 147.025469 96.302622)">All-at-once (4 launches)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #626975" x="147.025469" y="235.859284" transform="rotate(-0 147.025469 235.859284)">Split release (6 launches)</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_6"/>
+   <g id="line2d_7"/>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c90000" x="538.708457" y="77.016428" transform="rotate(-0 538.708457 77.016428)">67.9%</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #9ca5b1" x="232.555595" y="113.30116" transform="rotate(-0 232.555595 113.30116)">13.2%</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c90000" x="666.181088" y="96.814419" transform="rotate(-0 666.181088 96.814419)">+54.6 pp</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c90000" x="524.251238" y="216.57309" transform="rotate(-0 524.251238 216.57309)">65.3%</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #9ca5b1" x="220.649651" y="252.857822" transform="rotate(-0 220.649651 252.857822)">11.1%</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #c90000" x="666.181088" y="236.371081" transform="rotate(-0 666.181088 236.371081)">+54.2 pp</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="150.525469" y="17.837813" transform="rotate(-0 150.525469 17.837813)">Candidate windows show &gt;50 pp higher older-season chart presence</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_8">
+     <path d="M 160.425469 31.558876 
+L 171.425469 31.558876 
+L 182.425469 31.558876 
+" style="fill: none; stroke: #c90000; stroke-width: 7; stroke-linecap: square"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="191.225469" y="35.408876" transform="rotate(-0 191.225469 35.408876)">Candidate window</text>
+    </g>
+    <g id="line2d_9">
+     <path d="M 314.691875 31.558876 
+L 325.691875 31.558876 
+L 336.691875 31.558876 
+" style="fill: none; stroke: #9ca5b1; stroke-width: 7; stroke-linecap: square"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #171b22" x="345.491875" y="35.408876" transform="rotate(-0 345.491875 35.408876)">Other observation weeks</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #626975" x="25.165469" y="328.481813" transform="rotate(-0 25.165469 328.481813)">Windows selected from the same sample; descriptive concentration, not independent validation or promotion lift.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe8273f3129">
+   <rect x="150.525469" y="49.837813" width="588.52" height="224.128"/>
+  </clipPath>
+ </defs>
+</svg>
