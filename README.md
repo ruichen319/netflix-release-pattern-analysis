@@ -1,90 +1,101 @@
-# Netflix Release Patterns and Older-Season Chart Presence
+# Earlier-Season Promotion Around New-Season Releases
 
-Analyzed Netflix's Global Weekly Top 10 data to compare viewing-hour opportunities across content groups and examine older-season chart patterns around new-season launches.
+**When could Netflix promote earlier seasons around new-season releases to increase TV viewing hours?**
 
-[Presentation PDF](presentation/netflix-promotion-analysis.pdf) · [Python analysis](src/analyze.py) · [Analysis notebook](notebooks/netflix_analysis.ipynb) · [Chart patterns](outputs/figures/weekly_chart_patterns.svg) · [Data and methodology](docs/data_and_methodology.md)
+Python/pandas analysis of Netflix's Global Weekly Top 10, using 24-week launch-aligned datasets to identify candidate promotion periods, check series-specific patterns, and propose a measurable business experiment.
 
-## Business question
+[Presentation PDF — 14 pages](presentation/netflix-promotion-analysis.pdf) · [Google Slides](https://docs.google.com/presentation/d/19YR-Ac5DwTtAb7lzRcB1JN2szpS2xcyNdwt8GMF3ADg/edit) · [Executed notebook](notebooks/netflix_analysis.ipynb) · [Runnable analysis](src/analyze.py) · [Methodology](docs/data_and_methodology.md)
 
-**Which promotion opportunities should Netflix prioritize testing to increase total weekly viewing hours?**
+## Executive answer
 
-Using Netflix's Global Weekly Top 10 data, this analysis compares viewing-hour patterns across content groups and examines older-season chart presence around new-season launches to identify promotion hypotheses. The dataset covers chart-listed titles rather than Netflix's full viewing activity.
+- **Start with candidate launch periods:** Weeks −1 to +5 for all-at-once releases and −1 to +10 for split releases. Older-season Top 10 presence is over 54 percentage points higher inside these periods than in the other observation weeks of the selected sample.
+- **Tailor the approach:** Ms. Rachel shows a different timing pattern. The previous-versus-earlier-season comparison does not support a universal season-group priority.
+- **Validate incremental impact:** propose added older-season promotion versus business as usual, measuring weekly TV viewing hours per randomized user before scaling.
 
-## Analytical approach
+The windows were chosen from the same chart patterns. These are descriptive opportunities for testing, not independently validated optimal periods or demonstrated promotion lift.
 
-Python and pandas combine weekly chart records with curated release metadata to construct launch-aligned panels.
+![Candidate-window comparison](outputs/figures/candidate_window_comparison.png)
 
-1. Compare TV and film viewing hours, then English and non-English TV, within the Top 10 data to identify areas for further investigation.
-2. Filter to TV, standardize season names, and match release dates.
-3. Align each first-batch release to its Sunday-ending report week; define that week as Week 0.
-4. Retain launches with complete category charts across Weeks −12 through +11, requiring ten entries and ranks 1–10.
-5. Match each launch to lower-numbered seasons from the same series and construct weekly Top 10 indicators.
-6. Separate release formats. For previous-versus-earlier comparisons, require both groups, average chart weeks within each event, then give events equal weight.
+## Data preparation and analytical scope
 
-Techniques include validated joins, regular expressions, cross joins, datetime alignment, aggregation, reshaping, and event-weighted comparisons.
+The frozen snapshot contains **5,480 TV chart records across 274 reporting weeks**, from 4 July 2021 to 27 September 2026. The analysis follows **10 selected new-season launches across 6 series**, split into 4 all-at-once and 6 split releases.
 
-## Data and analytical unit
+Python/pandas standardizes season labels, aligns releases to Sunday-ending report weeks, checks complete category charts, and expands each older-season observation to Weeks −12 through +11. Validated joins retain off-chart observations instead of excluding seasons that never chart within a launch window.
 
-Netflix's **Global Weekly Top 10** file reports worldwide weekly rankings, rather than individual-country charts. This snapshot contains **10,960 records across 274 weeks**, from **4 July 2021 to 27 September 2026**.
+| Counting unit | Meaning | Dataset size |
+|---|---|---:|
+| Distinct older season | A unique series and older-season number | 14 |
+| Older season tracked at one launch | The same old season counts again at another launch | 21 |
+| Older season × launch × week | The complete 24-week tracking panel | 504 |
+| Launch × week | One yes/no result for any older-season listing | 240 |
 
-Each week contains 40 entries: ten each for Films (English), Films (Non-English), TV (English), and TV (Non-English). Each source row represents a film or TV season in one category and report week; the same title can recur.
+**Coverage check:** all 21 older-season observations identified in the available season list are included; none are excluded. Bridgerton S2 around S4 remains included despite no Top 10 listings in any of the 24 weeks. The check cannot enumerate never-charted seasons outside the available list. Chart absence does not mean zero viewing.
 
-The nine fields record week, category, rank, show title, season title, weekly hours viewed, runtime, weekly views, and cumulative Top 10 weeks. **Views = hours viewed ÷ runtime**, not unique viewers. Views and runtime are populated from the week ending 18 June 2023; earlier records retain hours viewed. See [Netflix's ranking-methodology update](https://about.netflix.com/en/news/top-10-things-about-netflix-top-10).
+## Timing comparison
 
-This project uses **5,480 TV records** and follows **10 sampled launches across six series**: four all-at-once and six split-batch. An analysis row is a launch–older-season–report-week combination. Totals count listed event–season pairs, not viewers. Field definitions and coverage are in the [data guide](docs/data_and_methodology.md).
+| Release format | Candidate period | Any older season listed: inside | Other observation weeks | Difference |
+|---|---|---:|---:|---:|
+| All-at-once, 4 launches | −1 to +5 | 19/28 = 67.9% | 9/68 = 13.2% | +54.6 pp |
+| Split release, 6 launches | −1 to +10 | 47/72 = 65.3% | 8/72 = 11.1% | +54.2 pp |
 
-## Findings
+Each launch contributes one binary result per week; multiple listed older seasons still count once. These repeated weekly results do not increase the launch sample sizes beyond 4 and 6. Raw weekly counts contain different numbers of eligible older seasons and do not establish a release-format advantage.
 
-TV contributes about 67–71% of listed viewing hours in 2022–2025. Within TV, non-English content's share rises from 33.04% to 43.20%, supporting further investigation of TV promotion opportunities.
+Eight of ten launches have higher within-window presence; **Manifest S4 is tied**, while **Ms. Rachel S2 is lower** and has older-season listings mainly before its launch. Across the full snapshot, Ms. Rachel S1 appears in 26 of 75 first-to-last calendar weeks with a 38-week unlisted gap; this does not establish stable year-round viewing.
 
-In the all-at-once sample, aggregate older-season appearances peak in the launch week and the following two report weeks, then fall to zero from Week 6 onward. In the split-batch sample, appearances peak in Week 1 and continue through Week 10. The samples contain five and sixteen event–older-season pairs respectively, so raw count magnitudes do not establish a release-format advantage.
+## Secondary question: which older seasons?
 
-**Previous-season targeting remains inconclusive.** Only one all-at-once launch and five split-batch launches included both previous and earlier seasons. Mean chart weeks were 4.0 versus 3.0 for all-at-once releases and 7.0 versus 7.37 for split releases. This small exploratory sample is insufficient to justify consistently prioritizing the immediately previous season.
+Use the same candidate periods, but compare the **mean per-season share of weeks listed**. Average earlier seasons within each launch, then give launches equal weight. This avoids favoring the earlier-season group just because it contains more seasons.
 
-## Proposed next steps
+| Format | Previous season | Earlier seasons | Eligible launches |
+|---|---:|---:|---:|
+| All-at-once | 57.1% | 42.9% | 1: Squid Game S3 |
+| Split release | 55.0% | 53.3% | 5 across 3 series |
 
-- **Test timing by release format:** use the observed weekly patterns to develop separate promotion hypotheses and account for later batches in split releases.
-- **Investigate launch concentration:** measure chart presence in Weeks −1 through +5 while retaining later split-release activity. This candidate interval is not an established optimal window.
-- **Expand season comparisons:** add more series with Season 3 or later launches before choosing between previous- and earlier-season promotion.
+Split-release differences average +1.7 pp: 3 positive, 1 tie and 1 negative. The small average does not establish equivalence; the all-at-once result is a single case. **Keep season selection exploratory.** [Paired launch details](docs/season_comparison.md).
 
-These are proposed analyses and tests. No campaign experiment or incremental viewing effect has been established.
+## Proposed promotion experiment
 
-## Repository structure
+Randomize eligible users within each format to additional older-season promotion or business as usual during the candidate period. Use **weekly TV viewing hours per randomized user** as the primary metric and total viewing hours as a substitution check. Set eligibility, sample size, duration and success thresholds using internal data before launch. No experiment was run in this project. [Experiment proposal](docs/experiment_proposal.md).
 
-```text
-netflix-release-pattern-analysis/
-├── README.md
-├── presentation/         # Business presentation PDF
-├── src/                  # Runnable analysis and SVG chart helper
-├── notebooks/            # Executed analysis notebook
-├── data/                 # Frozen chart snapshot and release references
-├── outputs/
-│   ├── tables/           # Weekly panels, selected events and comparisons
-│   └── figures/          # Weekly patterns and season comparisons
-├── docs/                 # Data definitions and methodology
-├── requirements.txt
-└── requirements-notebook.txt
+## Reproduce the analysis
+
+Use Python 3.10 or later from the repository root:
+
+```bash
+python -m pip install -r requirements.txt
+python src/analyze.py
+python -m unittest discover -s tests -v
 ```
 
-## How to run
+For interactive use:
 
-1. Download the repository and open its root directory. Python 3.10 or later is recommended.
-2. Install the analysis dependency and run:
+```bash
+python -m pip install -r requirements-notebook.txt
+jupyter lab notebooks/netflix_analysis.ipynb
+```
 
-   ```bash
-   python -m pip install -r requirements.txt
-   python src/analyze.py
-   ```
+Run all notebook cells in order. The notebook and standalone script execute the same analysis steps and regenerate numeric CSV tables plus SVG/PNG figures. Shared [configuration](src/analysis_config.py) defines every window. Tests cover endpoint inclusion, complete/duplicate rows, all-zero observations, any-season counting and equal launch weighting. Results reconcile to the final presentation.
 
-3. Review regenerated tables and figures under `outputs/`. For interactive use, install `requirements-notebook.txt` and open the notebook in Jupyter.
+## Repository guide
 
-The snapshot supports offline reproduction. The analysis was executed end to end; its three launch-pattern CSV exports match the original results.
+| Location | Contents |
+|---|---|
+| `data/` | Unchanged chart snapshot and release references |
+| `src/` | Reproducible data preparation, comparisons and figures |
+| `notebooks/` | Executed analysis with findings and experiment proposal |
+| `outputs/tables/` | Weekly panels, coverage audit, timing and season comparisons |
+| `outputs/figures/` | Presentation-consistent charts in SVG and PNG |
+| `presentation/` | Final 14-page PDF and executive-summary preview |
+| `docs/` | Definitions, interpretation boundaries and test proposal |
+| `tests/` | Analytical boundary and weighting checks |
 
 ## Limitations
 
-- The selected sample is small; repeated series contribute multiple launches.
-- Later release batches and other contemporaneous events may influence chart activity.
-- Top 10 absence means below the observed chart threshold, not zero viewing. The older-season catalog includes only seasons observed somewhere in the dataset.
-- Netflix changed ranking from hours viewed to views in June 2023; historical chart thresholds therefore reflect different ranking metrics.
-- Release references were retained from the project, not reverified during packaging. Global availability can vary by market.
-- Findings are descriptive and do not establish causality, retention, campaign lift, or ROI.
+- Selected sample: 10 launches across 6 series, with repeated series; it does not represent all multi-season Netflix shows.
+- Top 10 data do not observe viewing below the chart threshold; available release references cannot establish complete season coverage or worldwide availability.
+- Windows were selected from the same sample. Later batches and other events can affect listings; no causal release or promotion effect is established.
+- Season comparisons include only 1 and 5 eligible launches. They do not establish a preferred season group or equivalence.
+- Published charts span Netflix's historical switch from hours-based to views-based ranking. Release references are retained from the original project, not newly reverified.
+- The public dataset has no user-level exposure, campaign cost or experimental data; no lift, retention or ROI claim is made.
+
+The current project focuses on release-related promotion opportunities. Earlier TV/film and language-trend background pages have been removed to match the final presentation.
